@@ -30,12 +30,12 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 03
-            Console.WriteLine("---------- Q3 ----------");
+            //Console.WriteLine("---------- Q3 ----------");
 
-            var result03 = ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25m);
+            //var result03 = ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25m);
 
-            foreach (var product in result03)
-                Console.WriteLine(product);
+            //foreach (var product in result03)
+            //    Console.WriteLine(product);
             #endregion
 
             #region 04
