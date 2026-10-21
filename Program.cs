@@ -49,11 +49,11 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 05
-            Console.WriteLine("---------- Q5 ----------");
+            //Console.WriteLine("---------- Q5 ----------");
 
-            int[] ids = { 3, 9, 13, 18 };
+            //int[] ids = { 3, 9, 13, 18 };
 
-            Console.WriteLine($"Contains(9): {ids.Contains(9)}");
+            //Console.WriteLine($"Contains(9): {ids.Contains(9)}");
             #endregion
 
             #region 06
