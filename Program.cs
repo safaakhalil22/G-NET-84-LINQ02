@@ -213,13 +213,13 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 20
-            Console.WriteLine("---------- Q20 ----------");
+            //Console.WriteLine("---------- Q20 ----------");
 
-            var result20 = ProductList.Take(3).Select(p => p.ProductName)
-                                      .Concat(CustomerList.Take(3).Select(c => c.CustomerName));
+            //var result20 = ProductList.Take(3).Select(p => p.ProductName)
+            //                          .Concat(CustomerList.Take(3).Select(c => c.CustomerName));
 
-            foreach (var name in result20)
-                Console.WriteLine(name);
+            //foreach (var name in result20)
+            //    Console.WriteLine(name);
             #endregion
 
             #region 21
