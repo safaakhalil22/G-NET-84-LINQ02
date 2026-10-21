@@ -9,12 +9,12 @@ namespace G_NET_84_LINQ02
             #region LINQ Assignment
 
             #region 01
-            Console.WriteLine("---------- Q1 ----------");
+            //Console.WriteLine("---------- Q1 ----------");
 
-            var result01 = ProductList.OrderByDescending(p => p.UnitPrice).Take(3);
+            //var result01 = ProductList.OrderByDescending(p => p.UnitPrice).Take(3);
 
-            foreach (var product in result01)
-                Console.WriteLine(product);
+            //foreach (var product in result01)
+            //    Console.WriteLine(product);
             #endregion
 
             #region 02
