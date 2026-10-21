@@ -73,21 +73,21 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 07
-            Console.WriteLine("---------- Q7 ----------");
+            //Console.WriteLine("---------- Q7 ----------");
 
-            var result07 = ProductList.GroupBy(p => p.Category)
-                                      .Select(g => new
-                                      {
-                                          Category = g.Key,
-                                          ProductNames = g.Select(p => p.ProductName)
-                                      });
+            //var result07 = ProductList.GroupBy(p => p.Category)
+            //                          .Select(g => new
+            //                          {
+            //                              Category = g.Key,
+            //                              ProductNames = g.Select(p => p.ProductName)
+            //                          });
 
-            foreach (var group in result07)
-            {
-                Console.WriteLine($"[{group.Category}]");
-                foreach (var name in group.ProductNames)
-                    Console.WriteLine($"    {name}");
-            }
+            //foreach (var group in result07)
+            //{
+            //    Console.WriteLine($"[{group.Category}]");
+            //    foreach (var name in group.ProductNames)
+            //        Console.WriteLine($"    {name}");
+            //}
             #endregion
 
             #region 08
