@@ -223,12 +223,12 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 21
-            Console.WriteLine("---------- Q21 ----------");
+            //Console.WriteLine("---------- Q21 ----------");
 
-            var result21 = ProductList.Zip(CustomerList, (p, c) => $"{p.ProductName} sold to {c.CustomerName}");
+            //var result21 = ProductList.Zip(CustomerList, (p, c) => $"{p.ProductName} sold to {c.CustomerName}");
 
-            foreach (var line in result21)
-                Console.WriteLine(line);
+            //foreach (var line in result21)
+            //    Console.WriteLine(line);
             #endregion
 
             #endregion
