@@ -91,14 +91,14 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 08
-            Console.WriteLine("---------- Q8 ----------");
+            //Console.WriteLine("---------- Q8 ----------");
 
-            var result08 = ProductList.GroupBy(p => p.Category)
-                                      .Where(g => g.Count() > 3)
-                                      .Select(g => new { CategoryName = g.Key, CountOfProducts = g.Count() });
+            //var result08 = ProductList.GroupBy(p => p.Category)
+            //                          .Where(g => g.Count() > 3)
+            //                          .Select(g => new { CategoryName = g.Key, CountOfProducts = g.Count() });
 
-            foreach (var item in result08)
-                Console.WriteLine(item);
+            //foreach (var item in result08)
+            //    Console.WriteLine(item);
             #endregion
 
             #region 09
