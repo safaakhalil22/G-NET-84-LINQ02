@@ -158,15 +158,15 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 14
-            Console.WriteLine("---------- Q14 ----------");
+            //Console.WriteLine("---------- Q14 ----------");
 
-            string[] list1 = { "Germany", "France", "UK", "Spain" };
-            string[] list2 = { "france", "SPAIN", "Italy" };
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
 
-            var result14 = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
+            //var result14 = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
 
-            foreach (var country in result14)
-                Console.WriteLine(country);
+            //foreach (var country in result14)
+            //    Console.WriteLine(country);
             #endregion
 
             #region 15
