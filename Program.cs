@@ -18,15 +18,15 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 02
-            Console.WriteLine("---------- Q2 ----------");
+            //Console.WriteLine("---------- Q2 ----------");
 
-            int pageNumber = 2;
-            int pageSize = 5;
+            //int pageNumber = 2;
+            //int pageSize = 5;
 
-            var result02 = ProductList.Skip((pageNumber - 1) * pageSize).Take(pageSize);
+            //var result02 = ProductList.Skip((pageNumber - 1) * pageSize).Take(pageSize);
 
-            foreach (var product in result02)
-                Console.WriteLine(product);
+            //foreach (var product in result02)
+            //    Console.WriteLine(product);
             #endregion
 
             #region 03
