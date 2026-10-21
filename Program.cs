@@ -194,12 +194,12 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 18
-            Console.WriteLine("---------- Q18 ----------");
+            //Console.WriteLine("---------- Q18 ----------");
 
-            var result18 = Enumerable.Range(1, 10).Select(n => $"7 x {n} = {7 * n}");
+            //var result18 = Enumerable.Range(1, 10).Select(n => $"7 x {n} = {7 * n}");
 
-            foreach (var line in result18)
-                Console.WriteLine(line);
+            //foreach (var line in result18)
+            //    Console.WriteLine(line);
             #endregion
 
             #region 19
