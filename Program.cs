@@ -127,13 +127,13 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 11
-            Console.WriteLine("---------- Q11 ----------");
+            //Console.WriteLine("---------- Q11 ----------");
 
-            var cheapestPrice = ProductList.Min(p => p.UnitPrice);
-            var highestPrice = ProductList.Max(p => p.UnitPrice);
+            //var cheapestPrice = ProductList.Min(p => p.UnitPrice);
+            //var highestPrice = ProductList.Max(p => p.UnitPrice);
 
-            Console.WriteLine($"Cheapest price: {cheapestPrice:C2}");
-            Console.WriteLine($"Most expensive price: {highestPrice:C2}");
+            //Console.WriteLine($"Cheapest price: {cheapestPrice:C2}");
+            //Console.WriteLine($"Most expensive price: {highestPrice:C2}");
             #endregion
 
             #region 12
