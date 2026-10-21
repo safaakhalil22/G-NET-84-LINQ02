@@ -57,19 +57,19 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 06
-            Console.WriteLine("---------- Q6 ----------");
+            //Console.WriteLine("---------- Q6 ----------");
 
-            var result06 = ProductList.GroupBy(p => p.Category);
+            //var result06 = ProductList.GroupBy(p => p.Category);
 
-            result06 = from p in ProductList
-                       group p by p.Category;
+            //result06 = from p in ProductList
+            //           group p by p.Category;
 
-            foreach (var group in result06)
-            {
-                Console.WriteLine($"[{group.Key}]  ({group.Count()} products)");
-                foreach (var product in group)
-                    Console.WriteLine($"    {product.ProductName}");
-            }
+            //foreach (var group in result06)
+            //{
+            //    Console.WriteLine($"[{group.Key}]  ({group.Count()} products)");
+            //    foreach (var product in group)
+            //        Console.WriteLine($"    {product.ProductName}");
+            //}
             #endregion
 
             #region 07
