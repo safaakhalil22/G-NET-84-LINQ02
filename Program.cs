@@ -102,20 +102,20 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 09
-            Console.WriteLine("---------- Q9 ----------");
+            //Console.WriteLine("---------- Q9 ----------");
 
-            var result09 = from c in CustomerList
-                           group c by c.Country
-                           into countryGroup
-                           select new
-                           {
-                               Country = countryGroup.Key,
-                               Count = countryGroup.Count(),
-                               TotalOrderValue = countryGroup.Sum(cust => cust.Orders.Sum(o => o.Total))
-                           };
+            //var result09 = from c in CustomerList
+            //               group c by c.Country
+            //               into countryGroup
+            //               select new
+            //               {
+            //                   Country = countryGroup.Key,
+            //                   Count = countryGroup.Count(),
+            //                   TotalOrderValue = countryGroup.Sum(cust => cust.Orders.Sum(o => o.Total))
+            //               };
 
-            foreach (var item in result09)
-                Console.WriteLine(item);
+            //foreach (var item in result09)
+            //    Console.WriteLine(item);
             #endregion
 
             #region 10
