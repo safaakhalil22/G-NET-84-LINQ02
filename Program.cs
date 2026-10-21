@@ -39,13 +39,13 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 04
-            Console.WriteLine("---------- Q4 ----------");
+            //Console.WriteLine("---------- Q4 ----------");
 
-            bool allSeafoodInStock = ProductList
-                                     .Where(p => p.Category == "Seafood")
-                                     .All(p => p.UnitsInStock > 0);
+            //bool allSeafoodInStock = ProductList
+            //                         .Where(p => p.Category == "Seafood")
+            //                         .All(p => p.UnitsInStock > 0);
 
-            Console.WriteLine($"All Seafood in stock? {allSeafoodInStock}");
+            //Console.WriteLine($"All Seafood in stock? {allSeafoodInStock}");
             #endregion
 
             #region 05
