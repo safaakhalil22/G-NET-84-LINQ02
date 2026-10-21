@@ -119,11 +119,11 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 10
-            Console.WriteLine("---------- Q10 ----------");
+            //Console.WriteLine("---------- Q10 ----------");
 
-            var totalUnitsInStock = ProductList.Sum(p => p.UnitsInStock);
+            //var totalUnitsInStock = ProductList.Sum(p => p.UnitsInStock);
 
-            Console.WriteLine($"Total units in stock: {totalUnitsInStock}");
+            //Console.WriteLine($"Total units in stock: {totalUnitsInStock}");
             #endregion
 
             #region 11
