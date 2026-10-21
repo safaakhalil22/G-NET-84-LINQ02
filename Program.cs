@@ -186,11 +186,11 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 17
-            Console.WriteLine("---------- Q17 ----------");
+            //Console.WriteLine("---------- Q17 ----------");
 
-            var result17 = ProductList.FirstOrDefault(p => p.UnitPrice > 500m);
+            //var result17 = ProductList.FirstOrDefault(p => p.UnitPrice > 500m);
 
-            Console.WriteLine(result17?.ToString() ?? "null");
+            //Console.WriteLine(result17?.ToString() ?? "null");
             #endregion
 
             #region 18
