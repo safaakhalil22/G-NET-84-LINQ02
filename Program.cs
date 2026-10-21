@@ -178,11 +178,11 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 16
-            Console.WriteLine("---------- Q16 ----------");
+            //Console.WriteLine("---------- Q16 ----------");
 
-            var result16 = ProductList.First(p => p.UnitPrice > 50m);
+            //var result16 = ProductList.First(p => p.UnitPrice > 50m);
 
-            Console.WriteLine(result16);
+            //Console.WriteLine(result16);
             #endregion
 
             #region 17
