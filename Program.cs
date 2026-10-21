@@ -203,13 +203,13 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 19
-            Console.WriteLine("---------- Q19 ----------");
+            //Console.WriteLine("---------- Q19 ----------");
 
-            var result19 = Enumerable.Range(1, 30).Where(n => n % 2 == 0);
+            //var result19 = Enumerable.Range(1, 30).Where(n => n % 2 == 0);
 
-            foreach (var number in result19)
-                Console.Write($"{number} ");
-            Console.WriteLine();
+            //foreach (var number in result19)
+            //    Console.Write($"{number} ");
+            //Console.WriteLine();
             #endregion
 
             #region 20
