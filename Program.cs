@@ -137,12 +137,12 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 12
-            Console.WriteLine("---------- Q12 ----------");
+            //Console.WriteLine("---------- Q12 ----------");
 
-            var result12 = ProductList.Select(p => p.Category).Distinct();
+            //var result12 = ProductList.Select(p => p.Category).Distinct();
 
-            foreach (var category in result12)
-                Console.WriteLine(category);
+            //foreach (var category in result12)
+            //    Console.WriteLine(category);
             #endregion
 
             #region 13
