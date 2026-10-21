@@ -170,11 +170,11 @@ namespace G_NET_84_LINQ02
             #endregion
 
             #region 15
-            Console.WriteLine("---------- Q15 ----------");
+            //Console.WriteLine("---------- Q15 ----------");
 
-            Dictionary<int, Product> productsDictionary = ProductList.ToDictionary(p => p.ProductID);
+            //Dictionary<int, Product> productsDictionary = ProductList.ToDictionary(p => p.ProductID);
 
-            Console.WriteLine(productsDictionary[18]);
+            //Console.WriteLine(productsDictionary[18]);
             #endregion
 
             #region 16
